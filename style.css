@@ -1,0 +1,23 @@
+:root{
+ --main-color: black;
+ --bg-color: white;
+}
+.darktheme{
+  --main-color: white;
+  --bg-color: black;
+}
+body {
+ font-size: 15pt;
+ text-align: center;
+ background-color: var(--bg-color);
+}
+p{
+ color: var(--main-color);
+ pointer-events: none;
+}
+
+.link a{
+ display: block;
+ color: var(--main-color);
+ margin: 40px;
+}
